@@ -46,7 +46,7 @@ mass_diff_continents <- mean_mass_continent %>%
 filter(continent!="Af")
 tidier %>% head(7)
 
-write.table(mass_diff_continents, "Mass_in_different_continents.csv") # Use sep = ",",  if you want an organized table in columns when opening in excel
+write.table(mass_diff_continents, "continent_mass_differences.csv") # Use sep = ",",  if you want an organized table in columns when opening in excel
 
 # 4. Plot: Formatting the data to be plotted
 
